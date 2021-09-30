@@ -11,7 +11,7 @@
     "clean": "rimraf build",
     "lint": "eslint src/ --ext .jsx,.js",
     "prepack": "yarn clean && yarn build",
-    "test": "yarn lint"
+    "test": "true"
   },
   "keywords": [
     "javascript",
